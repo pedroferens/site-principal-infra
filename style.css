@@ -1,0 +1,109 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background: #050402;
+  padding: 20px 0;
+}
+
+.caixa {
+  position: relative;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 50px;
+  right: 0px;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #FFD700;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #C78C19;
+  text-decoration: underline;
+}
+
+.logo{
+    width: 20%;
+}
+
+
+main h1{
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+
+.produtos {
+    width: 1440px;
+    margin:0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    border-color: #C78C19;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    /* border: 2px #c78c19 solid*/
+}
+
+.produtos li:hover {
+  border-color: #FFD700;
+}
+
+.produtos li:active {
+  border-color: #050402;
+}
+
+.produtos li:hover h2{
+  font-size: 26px;
+}
+
+.produtos h2{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.produto-preco {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+footer{
+  text-align: center;
+  background-color: #050402;
+}
+
+.copyright {
+  color: #FFD700;
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
+}
